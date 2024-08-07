@@ -1,0 +1,41 @@
+.Sliderbar{
+    display: flex;
+    flex-direction: column;
+    padding-top:30px ;
+    gap:20px;
+    width: 100%;
+    max-width: 250px;
+    height: 100vh;
+    background: rgba(171, 170, 171, 0.748);
+}
+.sidebar-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: rgb(248, 235, 247);
+    cursor: pointer;
+    gap: 20px;
+ 
+}
+@media (max-width:800px) {
+    .Sliderbar{
+        padding: 30px 8px;
+       flex-direction: row;
+       width: 100%;
+       max-width: none;
+       height: auto;
+       justify-content: center;
+
+    }
+    .sidebar-item{
+        margin: 0;
+    }
+    
+}
+
+
+
+
